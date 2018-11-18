@@ -1,1 +1,6 @@
-include ':app'
+include ':app'                                     // assumed existing content
+setBinding(new Binding([gradle: this]))                                 // new
+evaluate(new File(                                                      // new
+        settingsDir.parentFile,                                         // new
+        'PoC-Adding-Flutter-To-Existing-Android-App/my_flutter/.android/include_flutter.groovy'                    // new
+))                                                                      // new
