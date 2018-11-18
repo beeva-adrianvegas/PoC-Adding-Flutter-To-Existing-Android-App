@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
                 layout.leftMargin = 100;
                 layout.topMargin = 200;
+
                 addContentView(flutterView, layout);
             }
         });
